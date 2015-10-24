@@ -62,6 +62,4 @@ if __name__=='__main__':
     extent = [xstart, xend, ystart, yend]
     figure(figsize=(16,12), dpi=200)
     imshow(mset2d, origin='lower', extent=extent, cmap="gray_r")
-    # xticks([])
-    # yticks([])
     savefig('mandelbrot.png')
